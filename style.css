@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.alert{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #e63946;
+    border-radius: 0.3rem;
+    /* border: 1px solid red; */
+    color: white;
+    padding: 1.5rem 2rem;
+}
+.success{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #2a9d8f;
+    border-radius: 0.3rem;
+    /* border: 1px solid red; */
+    color: white;
+    padding: 1.5rem 2rem;
+}
+form{
+    background-color: #345995;
+    padding: 4rem;
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+form div{
+    /* margin-top: 1rem; */
+}
+label{
+    color: white;
+}
+.web{
+    margin-top: 1rem;
+}
+.strong{
+    color: tomato;
+    font-size: small;
+}
+input[type=text],
+input[type=password]{
+    outline: none;
+    min-width: 100%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius:0.3rem ;
+    margin-top: .5rem;
+    border: 1px solid transparent;
+}
+textarea{
+    outline: none;
+    min-width: 100%;
+    height: 5rem;
+    border-radius:0.3rem ;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    padding: 0.5rem;
+
+}
+.centered{
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]{
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-radius: .4rem;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+}
+input[type=submit]:hover{
+    background-color: #e63946;
+    border:none;
+}
+@media (max-width:800px) and (min-width:450px) {
+    body{
+        min-width: 100vw;
+    }
+}
+@media (max-width:449px) and (min-width:0px) {
+    body{
+        min-width: 100vw;
+        height: 100vh;
+    }
+}
