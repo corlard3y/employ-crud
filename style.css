@@ -2,6 +2,54 @@ body{
     display: flex;
     justify-content: center;
 }
+.clue{
+    text-decoration: none;
+    background-color: white;
+    border:1px solid #009879;
+    color: #009879;
+    padding: 0.4em;
+    border-radius: .2em;
+}
+.clue:hover{
+    background-color: #009879;
+    color: white;
+    border:none
+}
+.search{
+background-color: #009879;
+padding: 2em;
+border-top-left-radius: 1em;
+border-top-right-radius: 1em;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
 .alert{
     position: fixed;
     top: 1rem;
@@ -22,14 +70,11 @@ body{
     color: white;
     padding: 1.5rem 2rem;
 }
-form{
+.form{
     background-color: #345995;
     padding: 4rem;
     width: 40rem;
     border-radius: 0.5rem;
-}
-form div{
-    /* margin-top: 1rem; */
 }
 label{
     color: white;

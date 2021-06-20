@@ -42,7 +42,7 @@ if(isset($_POST["Submit"])){
     <title>Document</title>
 </head>
 <body>
-<form action="create.php" method="post">
+<form action="create.php" method="post" class='form'>
         <div>
             <label>Employee Name:</label>
             <input type='text' placeholder='Name' name='ename'/>
